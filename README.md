@@ -12,7 +12,7 @@
 docker run \
     --name wireguard \
     -v "$(pwd)":/etc/wireguard \
-    -p 55555:55555/udp \
+    -p 55555:38945/udp \
     --cap-add NET_ADMIN \
     --tty --interactive \
     felixfischer/wireguard:latest
